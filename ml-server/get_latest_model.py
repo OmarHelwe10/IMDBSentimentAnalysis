@@ -9,7 +9,7 @@ with open("config.yaml", "r") as file:
     
 
 # Set MLflow tracking URI
-mlflow.set_tracking_uri("https://dagshub.com/OmarHelwe10/imdb-sentiment-analysis.mlflow")
+mlflow.set_tracking_uri("https://dagshub.com/OmarHelwe10/IMDBSentimentAnalysis.mlflow")
 
 # Load the vectorizer
 with open(config["tfidf-vectorizer"], "rb") as file:
