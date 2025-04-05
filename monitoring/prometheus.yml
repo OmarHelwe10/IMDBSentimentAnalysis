@@ -1,0 +1,8 @@
+scrape_configs:
+  - job_name: 'nodejs-app'
+    static_configs:
+      - targets: ['nodejs:4000']  #  Node.js app
+
+  #- job_name: 'ml-server'
+  #  static_configs:
+  #    - targets: ['localhost:5000']  # ML server IP and port

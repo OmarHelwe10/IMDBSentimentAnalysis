@@ -1,0 +1,20 @@
+# Ignore virtual environment
+ml_model/ml_env/
+
+# Ignore MLflow tracking directories
+ml_model/mlruns/
+
+# Ignore Python bytecode and cached files
+__pycache__/
+
+
+dataset/
+
+.github/
+
+secrets.txt
+
+
+node_modules/
+/small.txt
+/test_file.txt
