@@ -14,7 +14,7 @@ import json
 import datetime
 
 # Initialize MLflow with DagsHub
-dagshub.init(repo_owner='OmarHelwe10', repo_name='imdb-sentiment-analysis', mlflow=True)
+dagshub.init(repo_owner='OmarHelwe10', repo_name='IMDBSentimentAnalysis', mlflow=True)
 
 # Download stopwords
 nltk.download("stopwords")
